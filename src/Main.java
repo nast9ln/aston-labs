@@ -1,6 +1,4 @@
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -53,7 +51,7 @@ public class Main {
 
         myArrayListFromCollection.add("mur mur");
         System.out.print("Вид списка, созданного элементами коллекции, после добавления нового элемента: ");
-        for(String str : myArrayListFromCollection){
+        for (String str : myArrayListFromCollection) {
             System.out.print(str + " ");
         }
 
@@ -62,6 +60,6 @@ public class Main {
         System.out.println("Отсортированный список: " + myFirstArrayList);
 
     }
-    }
+}
 
 

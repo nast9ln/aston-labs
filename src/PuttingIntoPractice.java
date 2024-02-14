@@ -42,7 +42,6 @@ public class PuttingIntoPractice {
 
         System.out.println("Задание 8 :");
         System.out.println(findTransactionWithMinValue(transactions));
-        ;
     }
 
     //1. Найти все транзакции за 2011 год и отсортировать их по сумме (от меньшей
